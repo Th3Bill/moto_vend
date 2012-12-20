@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/sunfire/proprietary/usr/idc/qtouch-touchscreen.idc:system/usr/idc/qtouch-touchscreen.idc \
     vendor/moto/sunfire/proprietary/app/FastDormancy.apk:system/app/FastDormancy.apk \
     vendor/moto/sunfire/proprietary/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
-    vendor/moto/sunfire/proprietary/app/FaceLock.apk:system/app/FaceLock.apk \
     vendor/moto/sunfire/proprietary/etc/ppp/peers/pppd-ril.options:system/etc/ppp/peers/pppd-ril.options
 
 # system libs
@@ -178,8 +177,6 @@ PRODUCT_COPY_FILES += \
 # HDMI
 PRODUCT_COPY_FILES += \
     vendor/moto/sunfire/proprietary/lib/libmirrorjni.so:system/lib/libmirrorjni.so \
-    vendor/moto/sunfire/proprietary/app/FileManager.apk:system/app/FileManager2.apk
-
 
 # extra
 PRODUCT_COPY_FILES += \
