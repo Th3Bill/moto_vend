@@ -4,13 +4,8 @@ PRODUCT_PACKAGES := \
     LiveWallpapers \
     LiveWallpapersPicker \
     MagicSmokeWallpapers \
-    FileManager \
     VisualizationWallpapers \
     librs_jni
-
-# apps
-PRODUCT_PACKAGES := \
-    FileManager 
 
 # Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES := \
